@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@400;700&display=swap');
+
+/* purple */ 
+/* green */
+/* light pink */
+/* pink */
+/* yellow */
+/* dark green */
+/* red */
+
+:root {
+    --font-body: "Raleway", raleway;
+    
+    --clr-purple: #8338ec;
+    --clr-green: #2a9d8f;
+    --clr-light-pink: #faedcd;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--clr-purple);
+}
+
+.hero-section {
+    
+    background-color: #8338ec;
+    height: 41vh;
+}
+
+.hero-image {
+    background-image: url('../assets/hero-img.png');
+    background-repeat: no-repeat;
+    margin-left: 70%;
+    height: 434px;
+
+}
+
+.hero {
+    min-height: 40vh;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+    margin: 0.67em 0;
+    position: absolute;
+    top: -380px;
+    right: 1008px;
+    bottom: 194px;
+}
+
+.alt-title {
+    color: white;
+    position: absolute;
+    top: -279px;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+header {
+    max-width: 1600px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    padding-block: 50px;
+}
+
+.green-button {
+    background-color: var(--clr-green);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;    
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
